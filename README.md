@@ -37,6 +37,18 @@ http://localhost:8080/users/1/product/444
 ```
 
 
+Third run  **EurekaServer**
+
+```
+http://localhost:8761/
+```
+
+
+
+# Application Running In Local Successfully 
+<img width="946" height="434" alt="image" src="https://github.com/user-attachments/assets/9f1b75d5-b1d1-4fab-94ef-f87c2e03ec3b" />
+
+
          
 
 
