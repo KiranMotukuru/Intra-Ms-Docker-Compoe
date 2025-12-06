@@ -1,6 +1,8 @@
 # Containerising Microservice Application
 
-This Project demonstrates , Communication Between **Two Micoservices using  Docker Compose  yml **
+we have Two Microservice Applications  
+      ProductService
+      OrderService
 
 
 ## Description
