@@ -16,7 +16,8 @@ public class ProductController {
 
     @GetMapping("/{id}")
     public String getProductById(@PathVariable("id") String id) {
-        return "Product Details for ID: " + id;
+    	    String storedvalue = id;
+        return "Product Details for ID: " + storedvalue;
     }
 }
 	
