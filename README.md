@@ -99,10 +99,25 @@ https://github.com/KiranMotukuru/Intra-Ms-Docker-Compoe.git
 
 synatx :  docker build -t your-image-name .(current Directory)
 
+# Navigate to productservice
 
 ```
 docker build -t productservice .
 ```
+# Navigate to userservice
+
+```
+docker build -t userservice .
+```
+
+# Navigate to EurekaServer
+
+```
+docker build -t eurekhaserver .
+```
+
+
+
 
  
 
