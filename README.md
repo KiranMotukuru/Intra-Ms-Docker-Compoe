@@ -45,7 +45,67 @@ http://localhost:8761/
 
 
 
-# Application Running In Local Successfully 
+## Application Running In Local Successfully 
+
+
+# Steps To Run in Linux(Ubuntu)
+# phase -1 Install Softwares
+
+## Step : 1   Install Git
+
+```
+sudo apt update
+sudo apt install git
+```
+
+## verify Git installation
+
+```
+git --version
+```
+
+## Step : 2   Install Docker (Ubuntu)
+
+```
+sudo apt update
+curl -fsSL get.docker.com | /bin/bash
+sudo usermod -aG docker ubuntu 
+exit
+```
+## verify Docker installation
+
+```
+docker -v
+```
+
+Note :  We dont need **Jre** & **maven**  as Softwares Installation, Because These Softwares are Installed in Image. for more info check **Docker File**
+        **phase -1 is completed**
+
+
+ # Phase -2
+
+ ## Step : 1 Clone the Git Repo
+
+```
+https://github.com/KiranMotukuru/Intra-Ms-Docker-Compoe.git
+```
+
+## Step : 2 Navigate Through  cloned Directory
+
+ we have 3 Microservices 
+ ex:  Go to the  **ProductService**  where **Docker File** Presents  
+
+ # Build Docker Image 
+
+synatx :  docker build -t your-image-name .(current Directory)
+
+
+```
+docker build -t productservice .
+```
+
+ 
+
 
 
          
